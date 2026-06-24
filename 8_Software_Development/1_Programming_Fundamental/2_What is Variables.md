@@ -1,6 +1,6 @@
-# What are Variables? (In Depth)
+# 1. What are Variables? (In Depth)
 
-## Simple Definition
+## 1.1 Simple Definition
 
 A variable is a named container used to store data in memory so that it can be used, updated, and manipulated throughout a program.
 
@@ -16,7 +16,7 @@ Instead of remembering the actual value, we remember the name of the box.
 
 ---
 
-# Why Do Variables Exist?
+# 2. Why Do Variables Exist?
 
 Computers process data.
 
@@ -55,7 +55,7 @@ This makes programs easier to manage and update.
 
 ---
 
-# Real-World Business Example
+# 3. Real-World Business Example
 
 Imagine a CRM system.
 
@@ -79,7 +79,7 @@ Now the software can easily access and update the lead information.
 
 ---
 
-# What Happens Internally?
+# 4. What Happens Internally?
 
 When JavaScript executes:
 
@@ -93,7 +93,7 @@ The JavaScript engine:
 2. Stores the value 25.
 3. Associates the name "age" with that memory location.
 
-Visual Representation:
+### 4.1 Visual Representation
 
 ```text
 Memory
@@ -107,11 +107,9 @@ Variable names are references to data stored in memory.
 
 ---
 
-# Variables Are Used to Store Information
+# 5. Variables Are Used to Store Information
 
-Examples:
-
-## Customer Information
+## 5.1 Customer Information
 
 ```javascript
 let customerName = "Amit";
@@ -120,7 +118,7 @@ let customerCity = "Mumbai";
 
 ---
 
-## Product Information
+## 5.2 Product Information
 
 ```javascript
 let productName = "Laptop";
@@ -129,7 +127,7 @@ let productPrice = 50000;
 
 ---
 
-## Company Information
+## 5.3 Company Information
 
 ```javascript
 let companyName = "IT Modem";
@@ -138,7 +136,7 @@ let totalEmployees = 10;
 
 ---
 
-# JavaScript Variable Keywords
+# 6. JavaScript Variable Keywords
 
 JavaScript provides three ways to create variables.
 
@@ -157,7 +155,7 @@ const
 
 ---
 
-# let
+## 6.1 let
 
 Used when the value may change later.
 
@@ -179,7 +177,7 @@ The value was updated.
 
 ---
 
-# const
+## 6.2 const
 
 Used when the value should remain constant.
 
@@ -205,7 +203,7 @@ Because constant values cannot be reassigned.
 
 ---
 
-# var (Legacy)
+## 6.3 var (Legacy)
 
 Old JavaScript keyword.
 
@@ -228,9 +226,9 @@ instead.
 
 ---
 
-# Variable Naming Rules
+# 7. Variable Naming Rules
 
-Valid:
+## 7.1 Valid Names
 
 ```javascript
 let customerName;
@@ -240,7 +238,7 @@ let totalRevenue;
 
 ---
 
-Invalid:
+## 7.2 Invalid Names
 
 ```javascript
 let 1name;
@@ -250,9 +248,9 @@ let let;
 
 ---
 
-# Professional Naming Style
+# 8. Professional Naming Style
 
-Bad:
+## 8.1 Bad Naming
 
 ```javascript
 let x;
@@ -260,7 +258,9 @@ let a;
 let data;
 ```
 
-Good:
+---
+
+## 8.2 Good Naming
 
 ```javascript
 let customerName;
@@ -268,17 +268,15 @@ let invoiceAmount;
 let monthlyRevenue;
 ```
 
-A variable name should describe its purpose.
+<p style="background-color: yellow; color:black;">A variable name should describe its purpose.</p>
 
----
-
-# Variables and Data Types
+# 9. Variables and Data Types
 
 Variables can store different types of data.
 
 ---
 
-## String
+## 9.1 String
 
 Text Data
 
@@ -288,7 +286,7 @@ let name = "Rahul";
 
 ---
 
-## Number
+## 9.2 Number
 
 Numeric Data
 
@@ -298,7 +296,7 @@ let age = 25;
 
 ---
 
-## Boolean
+## 9.3 Boolean
 
 True or False
 
@@ -308,7 +306,7 @@ let isActive = true;
 
 ---
 
-## Null
+## 9.4 Null
 
 Intentional Empty Value
 
@@ -318,7 +316,7 @@ let customer = null;
 
 ---
 
-## Undefined
+## 9.5 Undefined
 
 Value Not Assigned Yet
 
@@ -328,9 +326,9 @@ let city;
 
 ---
 
-# Variables in Business Applications
+# 10. Variables in Business Applications
 
-## CRM
+## 10.1 CRM
 
 ```javascript
 let leadName = "Amit";
@@ -340,7 +338,7 @@ let leadStatus = "Interested";
 
 ---
 
-## LMS
+## 10.2 LMS
 
 ```javascript
 let studentName = "Rahul";
@@ -350,7 +348,7 @@ let progress = 80;
 
 ---
 
-## E-Commerce
+## 10.3 E-Commerce
 
 ```javascript
 let productName = "Keyboard";
@@ -362,9 +360,9 @@ Variables are the foundation of every software system.
 
 ---
 
-# Common Beginner Mistakes
+# 11. Common Beginner Mistakes
 
-## Using Meaningless Names
+## 11.1 Using Meaningless Names
 
 Bad:
 
@@ -380,7 +378,7 @@ let customerName = "Rahul";
 
 ---
 
-## Using let Everywhere
+## 11.2 Using let Everywhere
 
 Bad:
 
@@ -400,7 +398,7 @@ Use `let` only when the value changes.
 
 ---
 
-## Reusing Variable Names
+## 11.3 Reusing Variable Names
 
 Bad:
 
@@ -413,7 +411,7 @@ This causes errors.
 
 ---
 
-# Mental Model
+# 12. Mental Model
 
 Think of variables like labeled containers.
 
@@ -427,7 +425,7 @@ Whenever your software needs to remember information, it stores that information
 
 ---
 
-# Why Variables Matter
+# 13. Why Variables Matter
 
 Everything in software starts with data.
 
@@ -459,12 +457,12 @@ No data storage means no software.
 
 ---
 
-# Final Definition
+# 14. Final Definition
 
 ```text
 A variable is a named memory location used to store, access, update, and manage data inside a program.
 ```
 
-## Hindi Summary
+## 14.1 Hindi Summary
 
 Variable programming ka sabse basic aur important concept hai. Variable ek naam wala container hota hai jo data ko temporarily memory mein store karta hai. CRM mein leads, LMS mein students, aur e-commerce mein products — sabki information variables mein store hoti hai. Agar aap variables ko deeply samajh lete ho, to aap programming ke foundation ka pehla aur sabse important step clear kar lete ho.
