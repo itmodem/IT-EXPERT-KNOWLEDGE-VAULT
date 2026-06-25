@@ -354,5 +354,3 @@ Software
 
 Jab yeh connection dimaag mein baith jayega, tab JavaScript sirf language nahi rahegi; aap business problems ko software solutions mein convert karna shuru kar doge. Yeh hi actual foundation mastery hai.
 
-```
-```
